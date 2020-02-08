@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="welcome"></h1>
+    
+    
+    <!-- <p id="myLog"></p> -->
+
+    <form onsubmit="submitForm(event)">
+        <!-- <label for= "weight">Berat badan</label> -->
+        <input id="firstName" name = "firstName" type="text">
+        <input id="lastName" name = "lastName" type="text">
+        <button type="submit">register</button>
+    </form>
+    
+    <button onclick="deleteData()">delete</button>
+
+
+    <main>
+        <div>
+            <form onsubmit="addTodo(event)">
+                <input type="text" id="todos" name="todo" />
+                <button type="submit">Add</button>
+            </form>
+        </div>
+        <div id="output-todo">
+
+        </div>
+
+    </main>
+
+    <script src="index.js"></script>
+    <!-- <script src="fetch.js"></script> -->
+</body>
+</html>
